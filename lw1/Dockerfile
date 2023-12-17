@@ -1,8 +1,6 @@
 FROM node:8
 
-RUN mkdir -p 2048-game
-
-WORKDIR D:\\education\\Docker\\lw1\\2048-game
+WORKDIR /2048-game
 
 COPY package*.json ./
 
